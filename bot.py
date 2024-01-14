@@ -27,8 +27,7 @@ logging.getLogger('httpx').setLevel(logging.WARNING)
 logger = logging.getLogger(__name__)
 
 # get token using BotFather
-# TOKEN = os.getenv('TG_TOKEN')
-TOKEN = '6905933127:AAEl6ROhC4Vb31vcXKhPdVNu5IZXLZlb1ig'
+TOKEN = os.getenv('TG_TOKEN')
 
 CONTINUE_GAME, FINISH_GAME = range(2)
 
